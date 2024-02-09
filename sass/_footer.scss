@@ -1,0 +1,70 @@
+.footer {
+    padding: 6rem 0;
+    background: rgb(28, 28, 28);
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        &-img {
+            width: 40rem;
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 6rem;
+        padding: 0 9rem;
+    }
+
+    &__hours {
+        &-heading {
+            font-size: 2.4rem;
+            margin-bottom: 2.5rem;
+            color: white;
+            letter-spacing: 0.5px;
+        }
+
+        &-text {
+            font-size: 1.7rem;
+            color: rgb(209, 209, 209);
+            margin-bottom: 2.8rem;
+            justify-content: left;
+            align-self: flex-start;
+            letter-spacing: 0.5px;
+        }
+    }
+
+    &__menu-flex {
+        flex-direction: column;
+    }
+
+    &__address {
+        &-text {
+            font-size: 2.1rem;
+            line-height: 180%;
+            /* or 36px */
+
+            text-transform: uppercase;
+        }
+    }
+
+    &__legal {
+        &-text {
+            font-size: 2.1rem;
+            color: white;
+        }
+    }
+}
+
+.footer__contact a {
+    text-decoration: none;
+    color: $color-primary;
+}
+
+.footer__address-text {
+    text-decoration: none;
+    color: $color-primary;
+}
